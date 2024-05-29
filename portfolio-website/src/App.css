@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+}
+
+header {
+  background-color: #bad260;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: #fff;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+}
+
+
+.smoothscroll{
+  color: white !important;
+  font-weight: 400;
+  text-decoration: none !important;
+  font-size: 16px !important;
+}
+.smoothscroll:hover{
+  color: pink !important;
+  font-weight: 400;
+  text-decoration: none !important;
+  font-size: 16px !important;
+}
+
+
+
+
+
+.holders{
+  display: flex;
+  /* width: 100%; */
+  background-color: black;
+  height: 80px;
+  color: #fff;
+  align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+  justify-content: space-between;
+}
+
+.temi{
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+.nav-holders{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.nav-holders span{
+ font-size: 19px;
+ font-family: Arial, sans-serif;
+ cursor: pointer;
+}
+.nav-holders span:hover{
+ font-size: 19px;
+ font-family: Arial, sans-serif;
+ cursor: pointer;
+ color: red;
+}
+
+
+.links{
+  margin-right: 40px;
+}
+
